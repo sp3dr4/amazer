@@ -1,0 +1,16 @@
+[project]
+name = "amazer"
+version = "0.1.0"
+description = "A maze solver"
+authors = [
+    { name = "Simone Pedrazzi", email = "pedra89@gmail.com" }
+]
+license = { text = "MIT" }
+dependencies = []
+
+[tool.setuptools]
+packages = ["amazer"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
